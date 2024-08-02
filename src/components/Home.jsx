@@ -3,6 +3,7 @@ import Navbar from "./Navbar";
 import ShowBalance from "./ShowBalance";
 import PendingItem from "./PendingItem";
 import Onboarding from "./Onboarding";
+import Settlement from "./Settlement";
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
         <ShowBalance />
         <PendingItem />
         <Onboarding />
+        <Settlement />
       </div>
     </div>
   );

@@ -4,7 +4,7 @@ import bank from "../assets/bank.png";
 
 const Onboarding = () => {
   return (
-    <div className="p-4">
+    <div>
       <h1 className="mb-3">
         Onboarding updates <span className="text-slate-500 ml-2">(1)</span>
       </h1>
@@ -23,7 +23,7 @@ const Onboarding = () => {
                 alt="Current Account Image"
                 className="w-20 h-20 mb-2"
               />
-              <p className="text-xs text-center">CURRENT ACCOUNT</p>
+              <p className="text-sm text-center break-words">CURRENT ACCOUNT</p>
             </div>
           </div>
         </div>
