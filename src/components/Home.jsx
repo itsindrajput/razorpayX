@@ -27,7 +27,7 @@ const Home = () => {
         className="w-[100%] h-auto mr-2 px-[20%] cursor-pointer"
       />
 
-      <div className="flex justify-end p-6 mt-5 mr-8 py-5">
+      <div className="flex justify-end p-6 mt-1 mr-8 py-5">
         <Link
           to="/insights"
           className="inline-flex items-center bg-gradient-to-r from-blue-400 via-blue-500 to-blue-600 text-white font-semibold py-2 px-4 rounded-lg shadow-lg hover:from-blue-500 hover:via-blue-600 hover:to-blue-700 transition duration-300"
