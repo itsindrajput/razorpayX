@@ -6,7 +6,7 @@ import { GrPowerCycle } from "react-icons/gr";
 const ShowBalance = () => {
   return (
     <>
-      <div className="flex items-center justify-between">
+      <div className="flex items-center gap-8">
         <div className="text-gray-400">
           <ul>
             <li className="flex gap-2 items-center">
