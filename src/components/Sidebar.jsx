@@ -35,27 +35,35 @@ const Sidebar = () => {
           <span>Contacts</span>
         </div>
         <hr className="border-t border-gray-700 my-4 mb-6" />
-        <div className="flex items-center mb-8 cursor-pointer">
+        <div className="flex items-center align-middle mb-8 cursor-pointer">
           <FaRupeeSign className="mr-2" />
           <span>Loans</span>
-          <button className="ml-auto bg-blue-500 hover:bg-blue-700 text-white font-bold py-1 px-2 rounded">
-            New
+          <button className="ml-4 bg-sideNewBtn hover:bg-green-600 text-white text-[0.6rem] py-[0.2rem] px-2 rounded-lg">
+            NEW
           </button>
         </div>
 
-        <div className="flex flex-wrap items-center mb-8 cursor-pointer">
+        <div className="flex flex-wrap items-center align-middle mb-8 cursor-pointer">
           <div className="relative flex items-center mb-4">
             <CgFileDocument className="mr-2 mt-2 ml-0.5" />
             <span className="absolute top-0 left-0 w-1.5 h-1.5 bg-white rounded-full"></span>
             <span>Vendor Payments</span>
           </div>
-          <button className="ml-auto bg-blue-500 hover:bg-blue-700 text-white font-bold py-1 px-2 rounded">
-            New
-          </button>
-          <a href="#" target="_blank" className="text-blue-500 ml-1">
-            Invoice approvals
-          </a>
-          <FaArrowRight className="ml-1 text-sm  text-blue-500" />
+          <div className="flex flex-row">
+            <button className="ml-1 bg-sideNewBtn hover:bg-green-600 text-white text-[0.6rem] py-[0.2rem] px-2 rounded-lg">
+              NEW
+            </button>
+            <div className="flex flex-row ml-2">
+              <a
+                href="#"
+                target="_blank"
+                className="text-blue-500 ml-1 text-sm"
+              >
+                Invoice approvals
+              </a>
+              <FaArrowRight className="ml-1 mt-1 text-sm  text-blue-500" />
+            </div>
+          </div>
         </div>
 
         <div className="flex items-center mb-8 cursor-pointer">

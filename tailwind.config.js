@@ -8,6 +8,7 @@ export default {
         customLight: "#FBFBFD",
         sidebarCustom: "#1A212B",
         HighlightMenu: "#2E353F",
+        sideNewBtn: "#007E3C",
       },
       fontFamily: {
         roboto: ["roboto", "sans"],
