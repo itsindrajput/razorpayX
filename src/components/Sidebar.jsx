@@ -7,6 +7,7 @@ import { PiJoystick } from "react-icons/pi";
 import { TiPrinter } from "react-icons/ti";
 import { TbReportAnalytics } from "react-icons/tb";
 import image from "../assets/RazorpayX-Logo.png";
+import { Link } from "react-router-dom";
 
 const Sidebar = () => {
   return (
@@ -18,7 +19,9 @@ const Sidebar = () => {
         <div className="ml-[-1rem] w-[114%] bg-HighlightMenu mb-6 relative">
           <div className="flex items-center px-4 py-2 cursor-pointer relative">
             <FaHome className="mr-2" />
-            <span>Home</span>
+            <span>
+              <Link to="/">Home</Link>
+            </span>
             <div className="absolute left-0 top-2 bottom-0 w-1 h-6 bg-green-300" />
           </div>
         </div>

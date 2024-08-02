@@ -1,13 +1,17 @@
 import React from "react";
 import Sidebar from "./components/Sidebar";
 import Home from "./components/Home";
+import Insights from "./components/Insights";
+import { Route, Routes } from "react-router-dom";
 
 const App = () => {
   return (
     <>
       <div className="flex font-roboto">
-        <Sidebar></Sidebar>
-        <Home></Home>
+        <Routes>
+          <Route path="/" element={<Sidebar /> && <Home />} />
+          <Route path="/insights" element={<Insights />} />
+        </Routes>
       </div>
     </>
   );
