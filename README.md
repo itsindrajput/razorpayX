@@ -46,6 +46,12 @@ This project is a simple web application built using React and Tailwind CSS. The
 5. **Access the Application:**
    Open your browser and navigate to `http://localhost:5173` to view the app.
 
+## Explore These Live Links Of RazorpayX 🎉
+
+🌏 https://irazorpayx.netlify.app/
+
+![Razorpayx](https://github.com/user-attachments/assets/ac0723a5-6e07-4a73-b26e-720e03a47c8c)
+
 ## Contributing
 
 Feel free to fork this repository, make your changes, and submit a pull request. Contributions are welcome!
@@ -53,16 +59,3 @@ Feel free to fork this repository, make your changes, and submit a pull request.
 ## License
 
 This project is open source and available under the [MIT License](LICENSE).
-
-# Razorpayx
-
-![Razorpayx](https://github.com/user-attachments/assets/ac0723a5-6e07-4a73-b26e-720e03a47c8c)
-
-## React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
